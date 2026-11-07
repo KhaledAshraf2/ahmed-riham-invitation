@@ -1,12 +1,12 @@
 import { motion } from 'framer-motion';
-import { Button, Typography } from '@mui/material';
+import { Typography } from '@mui/material';
 import { EVENT } from '../data/invitation';
 
 interface Props {
   onContinue: () => void;
 }
 
-export default function InvitationScene({ onContinue }: Props) {
+export default function InvitationScene({ onContinue: _onContinue }: Props) {
   return (
     <motion.section
       className="scene invitation"
