@@ -199,8 +199,8 @@ body {
   font-family: "Aref Ruqaa", serif;
   font-size: 4rem;
   font-weight: 400;
-  margin: 16px 0 24px 8px;
-  line-height: 1.6;
+  margin: 8px 0 30px 8px;
+  line-height: 100%;
 }
 /* overflow:hidden would stop the sticky prompt from sticking to the viewport. */
 .scene.invitation {
